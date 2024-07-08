@@ -108,3 +108,153 @@ body{
     background-color: transparent;
     border: none;
 }
+
+/* Card Style */
+
+.card{
+    width: 1320px;
+    height: 482px;
+    border-radius: 16px;
+    margin: 120px 140px;
+    font-family: "Inter", sans-serif;
+    text-align: center;
+    background-color: burlywood;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.card-content{
+    text-align: center;
+}
+.card-element{
+     font-size: 32px;
+     font-weight: 600;
+     color: #070211;
+
+}
+.card-btn{
+    width: 167px;
+    height: 56px;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    background-color: #FF0000;
+}
+
+span{
+    color: red;
+}
+
+/* Coming soon styles */
+
+.coming-soon{
+    width: 1320px;
+    height: 463px;
+    margin: 120px 140px;
+    display: flex;
+    justify-content: space-between;
+    
+    
+
+}
+
+.coming-soon-subtitle{
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    color: #FF0000;
+}
+
+.coming-soon-title{
+    font-size: 48px;
+    font-weight: 900;
+    color: #070211;
+}
+
+.coming-soon-descrpition{
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    color:rgba(7, 2, 17, 0.6);
+    opacity: 60%;
+}
+.coming-soon-ellipse{
+    border: 10px solid red;
+    border-radius: 50%;
+    padding: 28px;
+}
+.coming-soon-year{
+    font-family: "Inter", sans-serif;
+    font-size: 48px;
+    font-weight: bold;
+    color: #FF0000;
+}
+.box-3-img{
+    height: 140px;
+    width: 140px;
+}
+.box-1{
+    width: 393px;
+    height: 255px;
+    margin-right: 80px;
+}
+.box-3{
+    margin-left: 50px;
+
+}
+
+/* Holiday sale styles */
+
+.holiday-sale{
+    width: 1320px;
+    height: 986px;
+    margin: 120px 140px;
+  
+    background-image: url(/images/Rectangle\ 2.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    
+
+
+}
+.holiday-sale-content{
+    width: 1068px;
+    height: 260px;
+    text-align: center;
+}
+.holiday-sale-subtitle{
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    color:#070211 ;
+}
+.holiday-sale-title{
+    font-size: 72px;
+    font-weight: 900;
+    color: #070211;
+}
+.holiday-sale-description{
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: #070211;
+}
+.holiday-sale-img{
+    display: flex;
+}
+.gift-box{
+    display: flex;
+}
+.gift-box-content{
+    width: 696px;
+    height: 562px;
+    margin-top: 150px;
+    margin-left: -100px;
+}
+.discount{
+    width: 305px;
+    margin-top: 200px;
+    margin-left: 200px;
+    margin-bottom: 200px;
+}
