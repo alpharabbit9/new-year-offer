@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+
+body{
+    font-family: "Merriweather", serif;
+    margin: 0;
+    padding: 0;
+}
+.header{
+    width: 1320px;
+    height: 700px;
+    background-image:linear-gradient(rgba(7,12,17,100),rgba(7,2,17,0)), url(../images/Banner\ Image.png);
+    background-repeat: no-repeat;
+   border-radius: 16px;
+    margin: 50px 140px;
+    
+    
+}
+/* Banner Style */
+.banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.banner-box{
+    text-align: center;
+    margin: 140px 244px;
+}
+
+.banner-title{
+    font-size: 72px;
+    font-weight: 900px ;
+    color: #FFFFFF;
+}
+
+.banner-subtitle{
+    font-size: 32px;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+}
+
+/* New Year secton styles */
+
+.new-year{
+    height: 800px;
+    width: 803px;
+    font-family: "Inter", sans-serif;
+    text-align: center;
+    margin: 70px 398px;
+}
+.new-year-container{
+    height: 500px;
+}
+.new-year-title{
+    font-size: 68px;
+    font-weight: bold;
+    color: #FF0000;
+}
+.new-year-description{
+    font-size: 14px;
+    font-weight: 500;
+    color: #FF0000;
+}
+.new-year-subtitle{
+    font-size: 28px;
+    font-weight: bold;
+}
+.new-year-image{
+    height: 500px;
+}
+
+
+/* Midnight Party styles */
+
+.midnight-party{
+    height: 600px;
+    width: 1320px;
+    border-radius: 16px;
+    margin: 120px 140px;
+    background-image:linear-gradient(rgba(7,2,17,100),rgba(7,2,17,0)) ,url(/images/Vectorrr.png);
+}
+.midnight-party-content{
+    width: 642px;
+    height: 176px;
+    padding: 126px 552px 298px 126px ;
+    
+}
+
+.midnight-party-title{
+    font-size: 64px;
+    font-weight: 900;
+    color:#FFFFFF ;
+}
+
+.midnight-party-description{
+    font-family: "Inter", sans-serif;
+    font: size 18px; 
+    color: #FFFFFF;
+    opacity: 80%;
+}
+.midnight-party-btn{
+    font-family: "Inter", sans-serif;
+    font-size: 20;
+    font-weight: bold;
+    color: #FFFFFF;
+    background-color: transparent;
+    border: none;
+}
