@@ -238,7 +238,7 @@ span{
     font-family: "Inter", sans-serif;
     font-size: 20px;
     font-weight: 500;
-    color: #070211;
+    color: grey;
 }
 .holiday-sale-img{
     display: flex;
@@ -257,4 +257,90 @@ span{
     margin-top: 200px;
     margin-left: 200px;
     margin-bottom: 200px;
+}
+/* Portfolio styles */
+
+.portfolio{
+    width: 1320px;
+    height: 1163px;
+    margin: 120px 140px;
+    
+    
+}
+
+.portfolio-subtitle{
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    color: #FF0000;
+}
+.portfolio-title{
+    font-size: 48px;
+    font-weight: 900;
+}
+.paragraph-container{
+    width: 896px;
+    height: 64px;
+}
+.portfolio-description{
+    font-family: "Inter", sans-serif;
+    font-size: 20;
+    color: grey;
+}
+.img-container{
+    gap: 5px;
+}
+.portfolio-img{
+    width: 424px;
+    height: 450px;
+}
+
+/* Footer style */
+
+.footer{
+    width: 1320px;
+    height: 616px;
+    margin: 120px 140px;
+    border-radius: 16px;
+    background-color: powderblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.news-letter{
+    width: 896px;
+    height: 336px;
+    margin: 80px 212px 200px 212px;
+    text-align: center;
+}
+.news-letter-img{
+    width: 150px;
+    height: 150px;
+}
+.news-letter-title{
+    font-size: 48px;
+    font-weight: 900;
+    color: #070211;
+}
+.news-letter-description{
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    color: grey;
+}
+.news-letter > input{
+    width: 648px;
+    height: 56px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+
+.news-letter-btn{
+    width: 167px;
+    height: 56px;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    background-color: #FF0000;
+    border-top-right-radius: 50px  ;
+    border-bottom-right-radius: 50px;
 }
